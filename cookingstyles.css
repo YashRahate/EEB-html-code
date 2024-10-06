@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(240, 240, 239);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url("assets/images/cooking_bg.jpg");
+    background-size: cover;
+    background-position: top;
+    color: rgb(48, 41, 41);
+    height: 50vh;
+    text-align: center;
+    position: relative; 
+
+
+  }
+header h1{
+    font-size: 48px;
+    color: black;
+    padding: 2vw;
+}
+nav img{
+    filter: invert(1);
+}
+nav .hobby{
+    filter: invert(0);
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 3vw;
+    z-index: 100;
+    color: white;
+      
+}
+
+
+nav .logo img{
+    width: 4vw;
+}
+.routes{
+    display: flex;
+    gap: 5vw;
+}
+.routes div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: 1vw auto;
+
+}
+.boxes{
+    /* display: flex;
+    gap: 5vw; */
+    padding: 1vh 2vw;
+    margin: 1vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 30vh;
+    border: 1px solid;
+}
+
+.boxes>img{
+
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 6px;
+    object-fit: contain;
+}
+.boxes .text{
+    display: flex;
+  
+    flex-direction: column;
+
+    
+}
+.boxes .btns{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+}
+.boxes .btns img{
+    max-width: 2vw;
+}
+.boxes .btns button{
+    width: 7vw;
+    padding: 1vh 0vw;
+}
+.footerimg{
+    position: relative;
+  
+    bottom: 0;
+
+
+}
+footer{
+    background-color: #722F37;
+    color: white;
+    width: 100%;
+    
+    height: 70vh;
+}
+.footerimg>img{
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    top: -30vh;
+    z-index: 5;
+}
+.social img{
+    width: 3vw;
+    filter: invert(1);
+}
+.social{
+    display: flex;
+    gap: 2vw;
+    padding: 2vw;    
+}
+.contact{
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 4vw 2vw;
+}
+.coninfo{
+    padding: 0 2vw;
+    display: flex;
+    gap: 25vw;
+    font-size: 14px;
+    font-size: medium;
+}
+.info{
+    max-width: 50vw;
+    padding: 2vw;
+}
+.copyright{
+    position: absolute;
+    bottom: 1vh;
+    font-weight: bolder;
+    padding: 0 2vw;
+    
+}
